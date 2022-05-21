@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hernandezKevinApp</string>
+    <string name="text_view_cantidadCarnes">Cantidad de carnes</string>
+    <string name="text_button_continue">continuar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_complement">pure</string>
+    <string name="text_complement_second">complemento</string>
+    <string name="text_ensalada">Ensalada</string>
+    <string name="fritas_text_view">Fritas</string>
+    <string name="resumen_Text">Resumen</string>
+    <string name="cantidad_carnes_text">cantidad de carnes:</string>
+    <string name="text">complemento:</string>
+    <string name="continue_text_english">continue</string>
+    <string name="title_text">Amount of meat</string>
+</resources>

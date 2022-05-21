@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <FrameLayout
+        android:id="@+id/seleccionResume"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_complement"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_complement_second"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/default_text"/>
+
+        <Button
+            android:id="@+id/textButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fritas_text_view"
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="110dp"/>
+
+        <Button
+            android:id="@+id/text_Ensalada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_ensalada"
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="7dp"/>
+        <Button
+            android:id="@+id/text_pure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_ensalada"
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="100dp"/>
+        <Button
+            android:id="@+id/action_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_contine_second"
+            android:layout_marginBottom="@dimen/space_defult"
+            android:text="@string/text_button_continue"
+            android:layout_gravity="center"
+            />
+
+
+    </FrameLayout>
+</layout>
